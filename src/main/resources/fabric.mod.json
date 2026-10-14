@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "simplefreecam",
+  "version": "${version}",
+  "name": "Simple Freecam",
+  "description": "Client-side camera-only freecam. Sends no extra packets.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "icon": "assets/simplefreecam/icon.png",
+  "environment": "client",
+  "entrypoints": { "client": ["com.simplefreecam.FreecamClient"] },
+  "mixins": ["simplefreecam.mixins.json"],
+  "depends": { "fabricloader": ">=0.18.1", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
